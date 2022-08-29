@@ -71,6 +71,12 @@
   }
 }
 
+- (void)unselect {
+  selected = false;
+  self.contentView.backgroundColor = [UIColor whiteColor];
+  _titleLabel.textColor = self.customColor;
+}
+
 - (BOOL)selectedValue {
   return selected;
 }

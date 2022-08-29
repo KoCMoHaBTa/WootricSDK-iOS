@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) UILabel *titleLabel;
 
 - (void)setText:(NSString *)text;
+- (void)unselect;
 - (BOOL)selectedValue;
 
 @end
